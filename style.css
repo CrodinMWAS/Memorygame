@@ -1,0 +1,28 @@
+body{
+    height: fit-content;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+#settings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    margin: auto;
+}
+
+#tile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    background-color: black;
+    border-radius: 25%;
+    color: white;
+}
